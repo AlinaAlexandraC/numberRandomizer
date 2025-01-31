@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        let randomNumber = Math.floor(Math.random() * maxNumber.value);
+        let randomNumber = Math.floor(Math.random() * maxNumber.value) + 1;
         displayNumber.innerHTML = randomNumber;
     };
 

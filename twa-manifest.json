@@ -1,10 +1,10 @@
 {
   "packageId": "app.vercel.number_randomizer.twa",
   "host": "number-randomizer.vercel.app",
-  "name": "randomNumber",
-  "launcherName": "My TWA",
+  "name": "Randomizer App",
+  "launcherName": "Randomizer",
   "display": "standalone",
-  "themeColor": "#FFFFFF",
+  "themeColor": "#000000",
   "themeColorDark": "#000000",
   "navigationColor": "#000000",
   "navigationColorDark": "#000000",
@@ -13,7 +13,7 @@
   "backgroundColor": "#FFFFFF",
   "enableNotifications": true,
   "startUrl": "https://number-randomizer.vercel.app/",
-  "iconUrl": "https://www.freepik.com/premium-vector/abstract-multicolored-pencil-scribbles-seamless-pattern-hand-drawn-brush-strokes-bright-background_356973207.htm#fromView=search&page=2&position=5&uuid=73a8e5d2-90fe-4911-bdb6-c8de6110d587&query=random",
+  "iconUrl": "https://number-randomizer.vercel.app/icons/icon-512x512.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "C:\\Users\\Alina\\Desktop\\JavaScript + React Practice\\numberRandomizer\\android.keystore",

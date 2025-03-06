@@ -24,9 +24,9 @@ def twaManifest = [
     applicationId: 'app.vercel.number_randomizer.twa',
     hostName: 'number-randomizer.vercel.app', // The domain being opened in the TWA.
     launchUrl: 'https://number-randomizer.vercel.app/', // The start path for the TWA. Must be relative to the domain.
-    name: 'randomNumber', // The application name.
-    launcherName: 'My TWA', // The name shown on the Android Launcher.
-    themeColor: '#FFFFFF', // The color used for the status bar.
+    name: 'Randomizer App', // The application name.
+    launcherName: 'Randomizer', // The name shown on the Android Launcher.
+    themeColor: '#000000', // The color used for the status bar.
     themeColorDark: '#000000', // The color used for the dark status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.

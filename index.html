@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Randomizer</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="/manifest.json" />
   </head>
   <body>
     <div class="container">
@@ -13,9 +14,14 @@
       <label for="max-number" class="input-error"></label>
       <div class="buttons">
         <div class="randomize btn">Random Number</div>
-          <div class="clear btn">Clear</div>
+        <div class="clear btn">Clear</div>
       </div>
     </div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/service-worker.js");
+      }
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
